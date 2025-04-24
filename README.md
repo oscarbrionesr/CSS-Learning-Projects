@@ -1,5 +1,7 @@
-# CSS-Learning-Projects
+# HTML & CSS Learning Projects
 Welcome to my CSS Learning projects:
 
-1. Coffee Shop Menu: coffeeshoop.html & coffeestyles.css
-2. Color markers: colormarkers.html & markerstyles.css
+1. Cat App
+2. Coffee Shop Menu
+3. Color Markers
+4. Registration Form
