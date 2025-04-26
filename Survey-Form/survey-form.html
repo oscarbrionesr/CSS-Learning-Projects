@@ -1,23 +1,30 @@
+<!--This html creates a basic survey form. Its purpose is to practice form formating and styling with CSS-->
+
+<!--Initial setup-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
     <title>Restaurant Survey Form</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="survey-styles.css" />
   </head>
 
   <body>
+    <!--Header and description paragraph-->
     <h1 id="title">Restaurant Survey Form</h1>
     <p id="description">Thank you for helping us improve!</p>
 
+    <!--Main Form-->
     <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
       
+      <!--First fieldset with inputs for personal info-->
       <fieldset>
         <label id="name-label" for="name">Name <input id="name" name="name" type="text" required placeholder="Enter your name"/></label>
         <label id="email-label" for="email">Email <input id="email" name="email" type="email" required placeholder="Enter your email" /></label>
         <label id="number-label" for="age">Age <input id="number" name="age" type="number" min="13" max="120" required placeholder="Age"/></label>
       </fieldset>
       
+      <!--Second fieldset with dropdwon element and a few options-->
       <fieldset>
          <label for="dropdown">What is your favorite menu item?
           <select id="dropdown" name="dropdown">
@@ -28,14 +35,15 @@
           </select>
         </label>
       </fieldset>
-
+      
+      <!--Third fieldset with radio buttons-->
       <fieldset>
         <label>Are you a new customer?</label>
         <label for="yes"><input class="inline" id="yes" type="radio" value="yes" name="customer" checked /> Yes</label>
         <label for="no"><input class="inline" id="no" type="radio" value="no" name="customer" /> No</label>
       </fieldset>
-
-
+      
+      <!--Fourth fieldset with checkboxes-->
       <fieldset>
         <label>Which menu items would you like to see in the future? (Check all that apply)</label>
         <label><input class="inline" id="breakfast-burrito" type="checkbox" name="terms-and-conditions" value="breakfast-burrito"/>Breakfast Burritos</label>
@@ -43,11 +51,14 @@
         <label><input class="inline" id="soda" type="checkbox" name="soda" value="soda"/>Different Sodas</label>
       </fieldset>
 
+      <!--Final fieldset with optional comment textarea-->
       <fieldset>
          <label for="comments">Additional Comments or Suggestions:
           <textarea id="comments" name="comments" rows="10" cols="30" placeholder="Enter your comments here..."></textarea>
         </label>
       </fieldset>
+
+      <!--Submit button-->
       <input id="submit" type="submit" value="Submit" />
     </form>
   </body>

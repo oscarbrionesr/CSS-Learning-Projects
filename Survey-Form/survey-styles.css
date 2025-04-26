@@ -1,3 +1,7 @@
+/*This CSS styles the survery-form.html file*/
+
+
+/*Main body styling*/
 body {
     width: 100%;
     height: 100vh;
@@ -7,10 +11,14 @@ body {
     font-family: 	Courier New;
     font-size: 18px;
   }
+
+/*Header and paragraph styling*/
 h1, p {
     margin: 1em auto;
     text-align: center;
   }
+
+/*Main form styling*/
 form {
     width: 60vw;
     max-width: 700px;
@@ -21,19 +29,22 @@ form {
     border-radius: 8px;  
   }  
 
+/*individual fieldset formatting*/
 fieldset {
     border: none;
   }
 
+/*styling the last fieldset element in the page*/  
 fieldset:last-of-type {
     border-bottom: none;
   }
-  
+/*label styling*/  
   label {
     display: block;
     margin: 0.5rem;
   }
-  
+
+/*genearl styling for all inputs*/  
   input,
   textarea,
   select {
@@ -41,7 +52,8 @@ fieldset:last-of-type {
     width: 100%;
     min-height: 2em;
   }
-  
+
+/*Styling for text inputs*/
   input, textarea {
     background-color: white;
     border: 1px solid white;
