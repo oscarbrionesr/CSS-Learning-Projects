@@ -1,3 +1,6 @@
+/*This CSS file styles the rothkopainting.html file*/
+
+/*Initial box styling*/
 .canvas {
     width: 500px;
     height: 600px;
@@ -6,6 +9,7 @@
     filter: blur(2px);
   }
   
+  /*Frame stling*/
   .frame {
     border: 50px solid black;
     width: 500px;
@@ -13,6 +17,7 @@
     margin: 20px auto;
   }
   
+  /*first box within main canvas*/
   .one {
     width: 425px;
     height: 150px;
@@ -23,6 +28,7 @@
     transform: rotate(-0.6deg);
   }
   
+  /*second box within main canvas*/
   .two {
     width: 475px;
     height: 200px;
@@ -33,10 +39,12 @@
     transform: rotate(0.4deg);
   }
   
+  /*shared properties*/
   .one, .two {
     filter: blur(1px);
   }
   
+  /*third box within main canvas*/
   .three {
     width: 91%;
     height: 28%;
