@@ -5,3 +5,5 @@ Welcome to my CSS Learning projects:
 2. Coffee Shop Menu
 3. Color Markers
 4. Registration Form
+5. Survey Form
+6. Rothko Painting
