@@ -1,5 +1,5 @@
 # HTML & CSS Learning Projects
-Welcome to my CSS Learning projects:
+Welcome to my HTML & CSS Learning projects:
 
 1. Cat App
 2. Coffee Shop Menu
