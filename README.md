@@ -7,3 +7,4 @@ Welcome to my HTML & CSS Learning projects:
 4. Registration Form
 5. Survey Form
 6. Rothko Painting
+7. Photo Gallery
