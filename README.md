@@ -9,3 +9,4 @@ Welcome to my HTML & CSS Learning projects:
 6. Rothko Painting
 7. Photo Gallery
 8. Nutritional Label
+9. Quiz
