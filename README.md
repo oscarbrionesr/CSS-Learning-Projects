@@ -10,3 +10,4 @@ Welcome to my HTML & CSS Learning projects:
 7. Photo Gallery
 8. Nutritional Label
 9. Quiz
+10. Tribute Page
