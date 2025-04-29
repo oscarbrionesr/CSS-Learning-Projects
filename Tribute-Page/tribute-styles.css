@@ -1,0 +1,28 @@
+header {
+    text-align: center;
+  }
+ 
+ body {
+    background-color: #ede9e8;
+    color: #1b1b32;
+    font-family: Courier New;
+  }
+ 
+ #img-div{
+   text-align: center;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+ 
+ #image{
+   background-color: white;
+   padding: 20px;
+   max-width: 100%;
+   display: block;
+ } 
+ 
+ .info{
+   text-align: justify;
+   padding: 20px;
+ }
