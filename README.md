@@ -16,3 +16,4 @@ Welcome to my HTML & CSS Learning projects:
 13. Piano
 14. Documentation Project
 15. City Skyline
+16. Magazine
