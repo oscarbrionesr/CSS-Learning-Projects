@@ -17,3 +17,4 @@ Welcome to my HTML & CSS Learning projects:
 14. Documentation Project
 15. City Skyline
 16. Magazine
+17. Landing Page
