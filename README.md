@@ -19,3 +19,4 @@ Welcome to my HTML & CSS Learning projects:
 16. Magazine
 17. Landing Page
 18. Ferris Wheel
+19. Penguin
