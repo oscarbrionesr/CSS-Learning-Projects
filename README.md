@@ -18,3 +18,4 @@ Welcome to my HTML & CSS Learning projects:
 15. City Skyline
 16. Magazine
 17. Landing Page
+18. Ferris Wheel
